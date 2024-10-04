@@ -1,0 +1,12 @@
+
+    <script>
+        function checkTimeForDarkMode() {
+            const currentTime = new Date();
+            const hours = currentTime.getHours();
+            if (hours >= 19) {
+                document.body.classList.add('dark');
+            } else {
+                document.body.classList.remove('dark');
+            }
+        }
+    </script>
